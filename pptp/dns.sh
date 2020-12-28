@@ -8,8 +8,8 @@ if [[ ! -e $PPTPOPTIONS ]] || [[ ! -r $PPTPOPTIONS ]] || [[ ! -w $PPTPOPTIONS ]]
     exit 1
 fi
 
-DEFAULTDNS1="8.8.8.8"
-DEFAULTDNS2="8.8.4.4"
+DEFAULTDNS1="223.5.5.5"
+DEFAULTDNS2="223.6.6.6"
 
 read -p "Preffered DNS resolver #1: " -e -i $DEFAULTDNS1 DNS1
 : ${DNS1:=$DEFAULTDNS1}
